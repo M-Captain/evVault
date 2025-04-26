@@ -2,17 +2,17 @@
   "version": 2,
   "builds": [
     {
-      "src": "build_files.sh",
+      "src": "build_files.sh"
     }
   ],
   "routes": [
     {
-      "src": "static/(.*)",
-      "dest": "static/$1"
+      "src": "/static/(.*)",
+      "dest": "/static/$1"
     },
     {
       "src": ".*",
-      "dest": "ehr/wsgi.py"
+      "dest": "/ehr/wsgi.py"
     }
   ]
 }
