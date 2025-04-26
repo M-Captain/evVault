@@ -3,7 +3,6 @@
   "builds": [
     {
       "src": "build_files.sh",
-      "dest": "."
     }
   ],
   "routes": [
